@@ -1,0 +1,83 @@
+/* Estilo do container */
+.container {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    width: fit-content;
+    background-color: #0fb4dd; /* Cor de fundo melhorada */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #fff; /* Cor do texto para contraste */
+}
+
+/* Estilo para todos os elementos do formulário */
+form * {
+    max-width: 300px;
+}
+
+/* Espaçamento entre as linhas do formulário */
+form .row {
+    margin-bottom: 15px;
+}
+
+/* Estilo dos rótulos */
+form .col-auto label {
+    font-weight: bold;
+    color: #fff; /* Cor do texto dos rótulos */
+}
+
+/* Estilo dos inputs */
+form input {
+    width: 100%;
+    padding: 10px; /* Aumentei o padding para inputs mais confortáveis */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px; /* Aumentei o tamanho da fonte */
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Estilo dos inputs em foco */
+form input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none; /* Removi o outline padrão */
+}
+
+/* Removendo a borda do fieldset */
+fieldset {
+    border: none;
+}
+
+/* Estilo do botão */
+button {
+    border: none;
+    height: 40px;
+    width: 100%;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Efeito hover do botão */
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* Leve aumento de tamanho ao passar o mouse */
+}
+
+/* Estilo do span para o resultado */
+#txt-resultado {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff; /* Cor do texto para contraste */
+}
+
+/* Cor do rótulo do resultado */
+label[for="txt-resultado"] {
+    color: #fff;
+}
